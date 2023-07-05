@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './Site/home/home.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
+import { CasaVidroComponent } from './Site/casa-vidro/casa-vidro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CasaVidroComponent
   ],
   imports: [
     BrowserModule,
