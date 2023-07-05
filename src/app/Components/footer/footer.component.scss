@@ -1,0 +1,38 @@
+footer {
+  background: var(--cinza-gray-600, #eaecee);
+  width: 100vw;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 1136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .contatos {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      h4 {
+        color: var(--cinza-gray-300, #273746);
+      }
+
+      .contato {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-left: 32px;
+        .img {
+          width: 30px;
+          display: flex;
+          justify-content: center;
+        }
+        a {
+          h5 {
+            color: var(--cinza-gray-400, #566573);
+          }
+        }
+      }
+    }
+  }
+}
