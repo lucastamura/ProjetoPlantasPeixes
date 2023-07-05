@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --color-one: #0b49b6;
+  --color-two: #2e6d4a;
+  --color-three: #f0e678;
+  --color-four: #da454a;
+  --color-five: #6c4ac8;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --gray-100: #17202a;
+  --gray-200: #212f3d;
+  --gray-300: #273746;
+  --gray-400: #566573;
+  --gray-500: #abb2b9;
+  --gray-600: #eaecee;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 32px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+h5 {
+  font-size: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+p {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.bold600 {
+  font-weight: 600;
+}

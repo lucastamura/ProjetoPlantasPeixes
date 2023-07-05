@@ -1,0 +1,31 @@
+header {
+  width: 100vw;
+  height: 60px;
+  border-bottom: 0.5px solid var(--cinza-gray-500, #abb2b9);
+  display: flex;
+  justify-content: center;
+  
+  .header {
+      width: 1136px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      img {
+          height: 40px;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            a {
+                p {
+                    color: var(--cinza-gray-400, #566573);
+                }
+                p:hover {
+                    border-bottom: 2px solid var(--cinza-gray-500, #abb2b9);
+                }
+            }
+        }
+    }
+}
