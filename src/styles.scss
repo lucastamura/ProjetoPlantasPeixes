@@ -19,12 +19,12 @@
   --color-five: #6c4ac8;
   --color-white: #ffffff;
   --color-black: #000000;
-  --gray-100: #17202a;
-  --gray-200: #212f3d;
-  --gray-300: #273746;
-  --gray-400: #566573;
-  --gray-500: #abb2b9;
-  --gray-600: #eaecee;
+  --cinza-gray-100: #17202a;
+  --cinza-gray-200: #212f3d;
+  --cinza-gray-300: #273746;
+  --cinza-gray-400: #566573;
+  --cinza-gray-500: #abb2b9;
+  --cinza-gray-600: #eaecee;
 }
 
 h1 {
@@ -44,7 +44,6 @@ h2 {
 }
 
 h3 {
-  text-align: center;
   font-size: 32px;
   font-family: Montserrat;
   font-style: normal;
@@ -78,4 +77,13 @@ p {
 
 .bold600 {
   font-weight: 600;
+}
+
+#body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    .container{
+        width: 1136px;
+    }
 }
