@@ -1,0 +1,63 @@
+#body {
+  .container {
+    #casadevidro {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 1066px;
+      margin-top: 60px;
+
+      .flex-box {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+
+        .left {
+          h2 {
+            color: var(--color-two);
+            text-align: center;
+            margin-bottom: 40px;
+          }
+          h5 {
+            color: var(--cinza-gray-400, #566573);
+            margin-bottom: 16px;
+          }
+          img {
+            margin-top: 13px;
+          }
+        }
+        .right {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+        }
+      }
+      .flex-box2 {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin-top: 16px;
+
+        .left {
+          h5 {
+            color: var(--cinza-gray-400, #566573);
+            margin-bottom: 16px;
+          }
+        }
+      }
+      .flex-box3 {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin-top: 16px;
+        margin-bottom: 32px;
+        .right {
+          h5 {
+            color: var(--cinza-gray-400, #566573);
+            margin-bottom: 16px;
+          }
+        }
+      }
+    }
+  }
+}
